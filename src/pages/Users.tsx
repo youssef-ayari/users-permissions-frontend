@@ -7,6 +7,7 @@ interface User {
   email: string;
   status: "active" | "inactive";
   roles: string[];
+  permissions: string[];
 }
 
 export default function Users() {
